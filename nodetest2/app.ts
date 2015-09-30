@@ -28,7 +28,7 @@ this.app = express();
  
 
 
-// view engine setup ............... test github pull function 1
+// view engine setup ............... test github pull function 2
 this.app.set('views', path.join(__dirname, 'views'));
 this.app.set('view engine', 'jade');
 
