@@ -51,7 +51,7 @@ this.app.use('/users', users);
 
 // catch 404 and forward to error handler
 this.app.use(function(req, res, next) {
-  var err = new Error('Not Found');
+  var err = new Error('test');
   err.status = 100;
   next(err);
 });
