@@ -6,7 +6,7 @@ interface Error {
                  status?: number;
 
            }
-class Application {
+class ApplicationTest {
   app;
    constructor(){
 var express = require('express');
