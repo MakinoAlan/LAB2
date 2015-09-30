@@ -51,8 +51,9 @@ this.app.use('/users', users);
 
 // catch 404 and forward to error handler
 this.app.use(function(req, res, next) {
-  var err = new Error('Not Found');
+  var err = new Error('Wrong address');
   err.status = 200;
+
   next(err);
 });
 
