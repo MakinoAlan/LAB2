@@ -52,7 +52,7 @@ this.app.use('/users', users);
 // catch 404 and forward to error handler
 this.app.use(function(req, res, next) {
   var err = new Error('Wrong address');
-  err.status = 200;
+  err.status = 404;
 
   next(err);
 });
@@ -63,7 +63,7 @@ this.app.use(function(req, res, next) {
 // will print stacktrace
 if (this.app.get('env') === 'development') {
   this.app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
+    res.status(err.status || 100);
     res.render('error', {
       message: err.message,
       error: err
