@@ -9,7 +9,11 @@ interface Error {
 class ApplicationTest {
   app;
    constructor(){
+<<<<<<< HEAD
 var express = require('express123333');
+=======
+var express = require('wuchendashabi');
+>>>>>>> 734dd81d655afc92175989fb5801e7f8b58eb115
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
