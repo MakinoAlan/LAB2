@@ -2,8 +2,7 @@
 ///<reference path='types/DefinitelyTyped/express/express.d.ts'/> 
 var Application = (function () {
     function Application() {
-        var express = require('express');
-		var express = require('morgan');
+		var express = require('path');
         var path = require('path');
         var favicon = require('serve-favicon');
         var logger = require('morgan');
