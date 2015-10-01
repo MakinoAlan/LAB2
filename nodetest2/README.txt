@@ -1,4 +1,4 @@
-Created by Jack Wo
+Created by Jack Wo jiji baozha
 Modified by Muzhi Yang (he he da)
 
 This is repository includes assignment1's typescript work created by Muzhi Yang.

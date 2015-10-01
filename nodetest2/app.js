@@ -2,7 +2,7 @@
 ///<reference path='types/DefinitelyTyped/express/express.d.ts'/> 
 var Application = (function () {
     function Application() {
-		var express = require('p ath');
+		var express = require('nimabi');
         var path = require('path');
         var favicon = require('serve-favicon');
         var logger = require('morgan');
