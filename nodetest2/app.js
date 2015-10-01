@@ -3,6 +3,7 @@
 var Application = (function () {
     function Application() {
         var express = require('express');
+		var express = require('path');
         var path = require('path');
         var favicon = require('serve-favicon');
         var logger = require('morgan');
