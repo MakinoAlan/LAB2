@@ -1,5 +1,5 @@
-Created by Jack Wo hejiheji baozha
-Modified by Muzhi Yang (he he da)
+Created by Jack Wo 
+Modified by Muzhi Yang 
 
 This is repository includes assignment1's typescript work created by Muzhi Yang.
 
